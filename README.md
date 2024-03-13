@@ -43,10 +43,12 @@ Use cv2.imshow to show the image
 End the program
 
 ## Program:
+```py
 '''
 Developed By: K KESAVA SAI
 Register Number: 212223230105
 '''
+```
 ## i) Original Image
 ```py
 import numpy as np
