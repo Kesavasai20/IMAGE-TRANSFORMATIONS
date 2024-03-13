@@ -9,19 +9,38 @@ Anaconda - Python 3.7
 
 ## Algorithm:
 ### Step1:
-<br>
+Import all the necessary modules
 
 ### Step2:
-<br>
+Choose an image and save it as filename.jpg
 
 ### Step3:
-<br>
+Use imread to read the image
 
 ### Step4:
-<br>
+Use cv2.warpPerspective(image,M,(cols,rows)) to translation the image
 
 ### Step5:
-<br>
+Use cv2.warpPerspective(image,M,(cols2,rows2)) to scale the image
+
+## Step6:
+Use cv2.warpPerspective(image,M,(int(cols1.5),int(rows1.5))) for x and y axis to shear the image
+
+## Step7:
+Use cv2.warpPerspective(image,M,(int(cols),int(rows))) for x and y axis to reflect the image
+
+## Step8:
+Use cv2.warpPerspective(image,M,(int(cols),int(rows))) to rotate the image
+
+## Step9:
+Crop the image to remove unwanted areas from an image
+
+## Step10:
+Use cv2.imshow to show the image
+
+## Step11:
+
+End the program
 
 ## Program:
 '''
