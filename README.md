@@ -29,7 +29,7 @@ Developed By: K KESAVA SAI
 Register Number: 212223230105
 '''
 ## i) Original Image
-```
+```py
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -39,8 +39,9 @@ plt.axis('off')
 plt.imshow(image)
 plt.show()
 ```
+
 ## ii)Image Translation
-```
+```py
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -56,7 +57,7 @@ plt.show()
 ```
 
 ## iii) Image Scaling
-```
+```py
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -72,7 +73,7 @@ plt.show()
 ```
 
 ## iv)Image shearing
-```
+```py
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -91,7 +92,7 @@ plt.show()
 ```
 
 ## v)Image Reflection
-```
+```py
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -109,10 +110,8 @@ plt.imshow(reflected_img_yaxis)
 plt.show()
 ```
 
-
-
 ## vi)Image Rotation
-```
+```py
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -128,9 +127,8 @@ plt.imshow(rotated_img)
 plt.show()
 ```
 
-
 ## vii)Image Cropping
-```
+```py
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -142,76 +140,23 @@ cropped_img = image[100:800,20:400]
 plt.axis('off')
 plt.imshow(cropped_img)
 plt.show()
-
-
-
-
 ```
+
 ## Output:
 ### i) Original Image
-<br>
-<br>
-![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/0602c535-34f2-4d8f-84cf-7e92f5f10589)
-
-<br>
-<br>
-
+![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/04502686-3682-430b-825b-c12030c6f235)
 ### ii)Image Translation
-<br>
-<br>
-![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/9e325759-8cf9-4130-a7e3-5b2a18b7b2a1)
-
-<br>
-<br>
-
+![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/5e94a31b-9cf9-4225-b32f-a4ebde229724)
 ### iii) Image Scaling
-<br>
-<br>
-![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/a6056518-7a4e-4619-b38f-0dbde1e2e83b)
-
-<br>
-<br>
-
-
+![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/2a48b52d-5a89-4d77-a3c1-a0bcc77e81d3)
 ### iv)Image shearing
-<br>
-<br>
-![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/0b3cf633-ca21-44c1-9420-c51e6e26d7aa)
-
-<br>
-<br>
-
-
+![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/b69e5d60-d053-4b3f-bf1f-bcb9f2efebbb)
 ### v)Image Reflection
-<br>
-<br>
-![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/94bad7b4-e428-444e-9918-5bd5c66f581f)
-
-<br>
-<br>
-
-
-
+![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/e02e907f-3a52-418f-aded-b066540f6cd6)
 ### vi)Image Rotation
-<br>
-<br>
-![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/e6d15242-bd39-47e7-bd69-3dc69b2031df)
-
-<br>
-<br>
-
-
-
+![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/acd42973-a996-4141-9336-14cffada964a)
 ### vii)Image Cropping
-<br>
-<br>
-![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/0a7ced29-91e0-49f1-928c-07a8eb9cd2df)
-
-<br>
-<br>
-
-
-
+![image](https://github.com/Kesavasai20/IMAGE-TRANSFORMATIONS/assets/138849303/e0bbb36c-95bb-4764-bf86-fac7b0988f0d)
 
 ## Result: 
 
